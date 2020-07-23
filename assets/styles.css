@@ -1,0 +1,51 @@
+h1 {
+    margin-top: 0;
+}
+
+.search {
+    background-color: #eee;
+    padding: 40px 20px;
+}
+
+.fact {
+    min-height: 50px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.favorites {
+    padding: 40px 20px;
+}
+
+.favorites .list .item {
+    padding: 5px;
+    background-color: bisque;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #fff;
+    border: 0;
+    font-size: 16px;
+    width: 150px;
+    height: 30px;
+}
+
+button:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+button#add {
+    background-color: green;
+    color: #fff;
+    display: none;
+}
